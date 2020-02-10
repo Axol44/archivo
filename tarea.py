@@ -87,7 +87,7 @@ class Archivo:
                     cadena = '' 
                 else:
                     cadena = cadena + s[i]
-                    
+
             if cadena != '' and cadena.isalpha(): 
                 contador  += 1
             return contador 
@@ -190,7 +190,7 @@ if __name__ == "__main__":
             print(f'hay {newArchivo.cuentaMinusculas()} minúsculas')
         elif(opcion == 10):
             nuevo = input("ingrese un nuevo nombre de archivo: ")
-            newArchivo.copiaArchivo(nuevo): 
+            newArchivo.copiaArchivo(nuevo) 
         elif(opcion == 11):
             newArchivo.convertirMayusculas()
         elif(opcion == 12):
